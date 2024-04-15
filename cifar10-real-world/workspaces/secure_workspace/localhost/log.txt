@@ -1,0 +1,36 @@
+2024-04-12 01:28:14,489 - CoreCell - INFO - server: creating listener on grpc://0:8102
+2024-04-12 01:28:14,513 - CoreCell - INFO - server: created backbone external listener for grpc://0:8102
+2024-04-12 01:28:14,513 - ConnectorManager - INFO - 5681: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2024-04-12 01:28:14,514 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:58364] is starting
+2024-04-12 01:28:15,015 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:58364
+2024-04-12 01:28:15,016 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2024-04-12 01:28:15,027 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2024-04-12 01:28:15,036 - root - INFO - Server started
+2024-04-12 01:28:15,041 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:8102
+2024-04-12 01:28:21,025 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2024-04-12 01:28:24,920 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 0.0.0.0:8102 <= ipv6:%5B::1%5D:34770 SSL site-1] is created: PID: 5681
+2024-04-12 01:28:24,922 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 0.0.0.0:8102 <= ipv6:%5B::1%5D:34768 SSL site-2] is created: PID: 5681
+2024-04-12 01:28:25,345 - ClientManager - INFO - Client: New client site-1@172.25.126.150 joined. Sent token: 91b68ddf-5e0b-4812-ab01-f1616970d54f.  Total clients: 1
+2024-04-12 01:28:25,347 - ClientManager - INFO - Client: New client site-2@172.25.126.150 joined. Sent token: 02ab4965-51d3-4f64-80ea-316097105ed9.  Total clients: 2
+2024-04-12 01:37:54,889 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5f08f0a9-6211-4096-b0a3-a0caf5e582d3, get result: (connected sites (2) < min_sites (8)).
+2024-04-12 01:38:04,911 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5f08f0a9-6211-4096-b0a3-a0caf5e582d3, get result: (connected sites (2) < min_sites (8)).
+2024-04-12 01:38:24,955 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5f08f0a9-6211-4096-b0a3-a0caf5e582d3, get result: (connected sites (2) < min_sites (8)).
+2024-04-12 01:39:05,042 - DefaultJobScheduler - INFO - [identity=secure_project, run=?]: Try to schedule job 5f08f0a9-6211-4096-b0a3-a0caf5e582d3, get result: (connected sites (2) < min_sites (8)).
+2024-04-15 11:11:52,211 - CoreCell - INFO - server: creating listener on grpc://0:8102
+2024-04-15 11:11:52,224 - CoreCell - INFO - server: created backbone external listener for grpc://0:8102
+2024-04-15 11:11:52,224 - ConnectorManager - INFO - 73108: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2024-04-15 11:11:52,225 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:40928] is starting
+2024-04-15 11:11:52,726 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:40928
+2024-04-15 11:11:52,727 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2024-04-15 11:11:52,754 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server localhost on Port 8103
+2024-04-15 11:11:52,755 - root - INFO - Server started
+2024-04-15 11:11:52,758 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:8102
+2024-04-15 11:11:58,734 - ServerState - INFO - Got the primary sp: localhost fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2024-04-15 11:12:11,391 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 0.0.0.0:8102 <= ipv6:%5B::1%5D:53092 SSL site-1] is created: PID: 73108
+2024-04-15 11:12:11,818 - ClientManager - INFO - Client: New client site-1@172.25.126.150 joined. Sent token: 160f95a4-3a86-466f-9233-a0b2e04ac310.  Total clients: 1
+2024-04-15 14:37:41,835 - ClientManager - INFO - Client Name:site-1 	Token: 160f95a4-3a86-466f-9233-a0b2e04ac310 left.  Total clients: 0
+2024-04-15 14:37:41,840 - FederatedServer - INFO - Remove the dead Client. Name: site-1	 Token: 160f95a4-3a86-466f-9233-a0b2e04ac310.  Total clients: 0
+2024-04-15 14:37:44,093 - ClientManager - INFO - Re-activate the client:site-1 with token: 160f95a4-3a86-466f-9233-a0b2e04ac310
+2024-04-15 17:04:00,491 - ClientManager - INFO - Client Name:site-1 	Token: 160f95a4-3a86-466f-9233-a0b2e04ac310 left.  Total clients: 0
+2024-04-15 17:04:00,494 - FederatedServer - INFO - Remove the dead Client. Name: site-1	 Token: 160f95a4-3a86-466f-9233-a0b2e04ac310.  Total clients: 0
+2024-04-15 17:04:03,102 - ClientManager - INFO - Re-activate the client:site-1 with token: 160f95a4-3a86-466f-9233-a0b2e04ac310

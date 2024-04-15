@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "servers": [
+    {
+      "name": "secure_project",
+      "service": {
+        "target": "localhost:8102",
+        "scheme": "grpc"
+      },
+      "admin_host": "localhost",
+      "admin_port": 8103,
+      "ssl_private_key": "server.key",
+      "ssl_cert": "server.crt",
+      "ssl_root_cert": "rootCA.pem"
+    }
+  ],
+  "overseer_agent": {
+    "path": "nvflare.ha.dummy_overseer_agent.DummyOverseerAgent",
+    "args": {
+      "sp_end_point": "localhost:8102:8103",
+      "heartbeat_interval": 6
+    }
+  }
+}
